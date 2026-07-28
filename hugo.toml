@@ -1,6 +1,6 @@
 baseURL = "https://nikpsov.github.io/netlab/"
 languageCode = "ru"
-title = "NetLab — Zapret & nfqws"
+title = "NetLab — Документация & База Знаний"
 theme = "hextra"
 
 defaultContentLanguage = "ru"
@@ -22,8 +22,8 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
 
   [[languages.ru.menu.main]]
-    name = "Zapret & nfqws"
-    pageRef = "/zapret-nfqws"
+    name = "Документация"
+    pageRef = "/docs"
     weight = 1
 
   [[languages.ru.menu.main]]
@@ -40,7 +40,7 @@ disableKinds = ["taxonomy", "term"]
       icon = "github"
 
 [params]
-  description = "База знаний и инструкции по настройке Zapret & nfqws"
+  description = "Документация и база знаний по настройке Zapret 2, nfqws и обходу интернет-блокировок"
   navbar.displayTitle = true
   navbar.displayLogo = false
   theme.default = "system"
