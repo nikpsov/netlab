@@ -1,6 +1,6 @@
 baseURL = "https://nikpsov.github.io/netlab/"
 languageCode = "ru"
-title = "NetLab — Обход Блокировок & Сетевые Решения"
+title = "NetLab — Zapret & nfqws"
 theme = "hextra"
 
 defaultContentLanguage = "ru"
@@ -22,24 +22,9 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
 
   [[languages.ru.menu.main]]
-    name = "Туннели"
-    pageRef = "/tunnels"
+    name = "Zapret & nfqws"
+    pageRef = "/zapret-nfqws"
     weight = 1
-
-  [[languages.ru.menu.main]]
-    name = "Приложения"
-    pageRef = "/apps"
-    weight = 2
-
-  [[languages.ru.menu.main]]
-    name = "Роутеры"
-    pageRef = "/routers"
-    weight = 3
-
-  [[languages.ru.menu.main]]
-    name = "Решения"
-    pageRef = "/solutions"
-    weight = 4
 
   [[languages.ru.menu.main]]
     name = "Поиск"
@@ -55,7 +40,7 @@ disableKinds = ["taxonomy", "term"]
       icon = "github"
 
 [params]
-  description = "База знаний по настройке туннелей, VPN-клиентов и ультимативных решений для обхода интернет-блокировок"
+  description = "База знаний и инструкции по настройке Zapret & nfqws"
   navbar.displayTitle = true
   navbar.displayLogo = false
   theme.default = "system"

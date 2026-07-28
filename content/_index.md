@@ -1,36 +1,25 @@
 ---
-title: "NetLab — Обход Блокировок & Сетевые Решения"
+title: "NetLab — Zapret & nfqws"
 ---
 
-База знаний, гайды и инструкции по настройке протоколов туннелирования, VPN-приложений, роутеров и комплексных решений для стабильного доступа в интернет.
+База знаний и практические руководства по настройке **Zapret & nfqws** для обхода интернет-блокировок.
 
 ---
 
 {{< hextra/hero-headline >}}
-  Сетевые туннели & Обход блокировок
+  Zapret & nfqws
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Практические руководства по настройке AmneziaWG, VLESS, Sing-box, Keenetic и созданию собственных ультимативных решений.
+  Инструкции по настройке и обходу блокировок ТСПУ.
 {{< /hextra/hero-subtitle >}}
 
-{{< hextra/hero-button text="Протоколы туннелей" link="/tunnels" >}}
-{{< hextra/hero-button text="Настройка роутеров" link="/routers" style="outline" >}}
+{{< hextra/hero-button text="Перейти к Zapret & nfqws" link="/zapret-nfqws" >}}
 
 ---
 
-## 🛠 Категории базы знаний
+## 🛠 Разделы
 
 {{< cards >}}
-  {{< card link="/tunnels" title="🛡️ Туннели & Протоколы" subtitle="Настройка AmneziaWG, VLESS + REALITY, ShadowTLS, WireGuard и OpenVPN." >}}
-  {{< card link="/apps" title="📱 Приложения & Клиенты" subtitle="Инструкции по настройке Sing-box, AmneziaVPN, Nekoray, v2rayN, Clash." >}}
-  {{< card link="/routers" title="🛜 Роутеры & Маршрутизация" subtitle="Обход блокировок на Keenetic, OpenWrt, MikroTik и выборочный маршрутинг." >}}
-  {{< card link="/solutions" title="⚡ Ультимативные решения" subtitle="Комплексные архитектуры, развертывание собственного VPS и защита от DPI." >}}
+  {{< card link="/zapret-nfqws" title="⚡ Zapret & nfqws" subtitle="Руководства по дублированию, сплиту пакетов и подмене TCP/UDP трафика." >}}
 {{< /cards >}}
-
----
-
-## 💡 С чего начать?
-- Перейдите в раздел **[Туннели](/tunnels)** для выбора стойкого протокола туннелирования.
-- Выберите клиент в разделе **[Приложения](/apps)** для вашего устройства (Android, iOS, Windows, macOS, Linux).
-- Настройте прозрачную фильтрацию трафика на уровне роутера в разделе **[Роутеры](/routers)**.
