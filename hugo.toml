@@ -1,6 +1,6 @@
 baseURL = "https://nikpsov.github.io/netlab/"
 languageCode = "ru"
-title = "NetLab Notes & Guides"
+title = "NetLab — Обход Блокировок & Сетевые Решения"
 theme = "hextra"
 
 defaultContentLanguage = "ru"
@@ -22,14 +22,24 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
 
   [[languages.ru.menu.main]]
-    name = "Гайды"
-    pageRef = "/guides"
+    name = "Туннели"
+    pageRef = "/tunnels"
     weight = 1
 
   [[languages.ru.menu.main]]
-    name = "Статьи"
-    pageRef = "/articles"
+    name = "Приложения"
+    pageRef = "/apps"
     weight = 2
+
+  [[languages.ru.menu.main]]
+    name = "Роутеры"
+    pageRef = "/routers"
+    weight = 3
+
+  [[languages.ru.menu.main]]
+    name = "Решения"
+    pageRef = "/solutions"
+    weight = 4
 
   [[languages.ru.menu.main]]
     name = "Поиск"
@@ -45,7 +55,7 @@ disableKinds = ["taxonomy", "term"]
       icon = "github"
 
 [params]
-  description = "База знаний и гайды NetLab"
+  description = "База знаний по настройке туннелей, VPN-клиентов и ультимативных решений для обхода интернет-блокировок"
   navbar.displayTitle = true
   navbar.displayLogo = false
   theme.default = "system"
