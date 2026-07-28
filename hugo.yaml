@@ -1,0 +1,42 @@
+baseURL: "https://nikpsov.github.io/netlab/"
+title: "NetLab Notes & Guides"
+languageCode: "ru-RU"
+defaultContentLanguage: "ru"
+
+theme: "hextra"
+
+enableEmoji: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: "Гайды"
+      pageRef: "/guides"
+      weight: 1
+    - name: "Статьи"
+      pageRef: "/articles"
+      weight: 2
+    - name: "GitHub ↗"
+      url: "https://github.com/nikpsov/netlab"
+      weight: 3
+
+params:
+  theme:
+    displayToggle: true
+    default: "system"
+  navbar:
+    displayTitle: true
+    displayLogo: true
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    copyright: "© NetLab. Создано с помощью Hugo и темы Hextra."
+  search:
+    enable: true
+    type: flexsearch

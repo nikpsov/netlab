@@ -1,48 +1,35 @@
 ---
-title: Obsidian и ведение заметок
-tags:
-  - obsidian
-  - workflow
-  - netlab
+title: "📝 Obsidian и ведение заметок"
+tags: ["obsidian", "workflow"]
 ---
 
-# 📝 Как вести заметки в Obsidian для NetLab
+# 📝 Ведение заметок в Obsidian
 
-Эта база знаний построена так, чтобы вы могли писать статьи в десктопной программе **Obsidian** и автоматически обновлять сайт через Git.
+Вы можете удобно составлять материалы в Obsidian и выгружать их на данный сайт Hextra.
 
 ---
 
-## 🔗 Двусторонние ссылки (Backlinks)
+## 🎨 Выноски (Callouts) в Hextra
 
-В Obsidian статьи связываются между собой через двойные квадратные скобки:
-- Ссылка на [[Основы компьютерных сетей]]
-- Ссылка на [[Развертывание в Docker]]
+Тема Hextra поддерживает стильные выноски:
 
-Когда вы делаете такую ссылку, Quartz автоматически создает обратную связь (Backlink) в нижней части статьи.
+{{< callout type="info" >}}
+**Информация:** Выноска подсвечивается синим цветом.
+{{< /callout >}}
 
----
-
-## 🎨 Выноски (Callouts)
-
-Вы можете использовать стандартные выноски Obsidian:
-
-> [!INFO] Информация
-> Выноски подсвечиваются соответствующими цветами в темной и светлой теме.
-
-> [!CHECK] Завершенная задача
-> Сайт настроен и готов к интеграции с GitHub Pages.
+{{< callout type="warning" >}}
+**Предупреждение:** Выноска подсвечивается желтым цветом.
+{{< /callout >}}
 
 ---
 
 ## 📊 Диаграммы Mermaid
 
-Quartz поддерживает отрисовку диаграмм Mermaid прямо из markdown:
+Hextra поддерживает визуализацию Mermaid из коробки:
 
 ```mermaid
 graph TD
-    A[Obsidian Vault] -->|git push| B[GitHub Repo netlab]
-    B -->|GitHub Actions| C[Quartz Build]
+    A[Obsidian Notes] -->|git push| B[GitHub Repo netlab]
+    B -->|GitHub Actions| C[Hugo Build with Hextra]
     C -->|Deploy| D[GitHub Pages Site]
 ```
-
-Вернуться на [[🚀 NetLab — База знаний и Гайды|Главную страницу]].

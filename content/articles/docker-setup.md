@@ -1,9 +1,6 @@
 ---
-title: Развертывание в Docker
-tags:
-  - devops
-  - docker
-  - containers
+title: "🐳 Развертывание в Docker"
+tags: ["devops", "docker"]
 ---
 
 # 🐳 Развертывание в Docker
@@ -30,24 +27,12 @@ docker logs -f netlab-web
 ## 📦 Пример Dockerfile
 
 ```dockerfile
-FROM node:24-alpine AS builder
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npx quartz build
-
 FROM nginx:alpine
-COPY --from=builder /app/public /usr/share/nginx/html
+COPY ./public /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-> [!TIP] Оптимизация
-> Использование многоэтапной сборки (Multi-stage builds) уменьшает итоговый размер образа контейнера.
-
----
-
-## 🔗 Связи
-- Базовые сетевые концепции описаны в [[Основы компьютерных сетей]].
-- Для возврата в начало перейдите на [[🚀 NetLab — База знаний и Гайды|Главную страницу]].
+{{< callout type="info" >}}
+**Совет по оптимизации:** Использование базового дистрибутива `alpine` уменьшает итоговый размер образа контейнера до ~10 МБ.
+{{< /callout >}}
