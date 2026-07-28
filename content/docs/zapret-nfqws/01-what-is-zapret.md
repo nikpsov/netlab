@@ -50,9 +50,26 @@ weight: 1
 
 ---
 
-## 🖥 На каких устройствах можно использовать Zapret?
+## 📦 Каталог репозиториев и утилит по платформам
 
-Zapret — универсальный инструмент, поддерживающий множество платформ:
-- **Роутеры на OpenWrt и Keenetic** (самый удобный вариант: запуск на роутере защищает сразу все смартфоны, ПК и телевизоры в доме).
-- **Компьютеры на Windows** (используется сборка `winws` / WinDivert).
-- **Компьютеры на Linux и macOS**.
+Ниже собраны основные открытые репозитории, оригинальные ядра и популярные готовые сборки для различных операционных систем и устройств:
+
+### 1. Официальные репозитории Zapret
+- 🔗 **[bol-van/zapret2](https://github.com/bol-van/zapret2)** — Главный репозиторий Zapret 2 (`nfqws2`, поддержка Lua, мультипрофили).
+- 🔗 **[bol-van/zapret](https://github.com/bol-van/zapret)** — Исходная первая версия Zapret 1 (в режиме EOL).
+
+### 2. Готовые сборки и GUI под Windows
+- 🔗 **[Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)** — Самая популярная готовая сборка Zapret для Windows с пакетом `.bat` скриптов для YouTube и Discord.
+- 🔗 **[Zapret GUI / Zapret 2 GUI](https://publish.obsidian.md/zapret)** — Графические интерфейсы (GUI) для управления службой `winws` без использования командной строки.
+- 🔗 **[Valedik/GoodbyeDPI](https://github.com/Valedik/GoodbyeDPI)** — Классическая утилита от Valedik для пассивного обхода DPI под Windows (AntiDPI / GoodbyeDPI).
+
+### 3. Решения для роутеров (Keenetic, OpenWrt, Padavan)
+- 🔗 **[nfqws/nfqws2-keenetic](https://github.com/nfqws/nfqws2-keenetic)** — Официальный адаптированный пакет `nfqws2` для роутеров Keenetic / Netcraze через Entware.
+- 🔗 **[Waujito/youtubeUnblock](https://github.com/Waujito/youtubeUnblock)** — Специализированная эффективная утилита обхода DPI для OpenWrt и Linux.
+
+### 4. Мобильные устройства (Android)
+- 🔗 **[bedheaders/ByeByeDPIAndroid](https://github.com/bedheaders/ByeByeDPIAndroid)** — Популярное приложение для Android, реализующее десинхронизацию пакетов через локальный VPN-сервис без необходимости Root-прав.
+- 🔗 **[hagezi/ByeByeDPI](https://github.com/hagezi/ByeByeDPI)** — Сборки и фильтры ByeByeDPI.
+
+### 5. macOS и Linux
+- 🔗 **[xvzc/SpoofDPI](https://github.com/xvzc/SpoofDPI)** — Быстрый и лёгкий прокси-десинхронизатор DPI на языке Go для macOS и Linux.
