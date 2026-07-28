@@ -40,3 +40,8 @@ params:
   search:
     enable: true
     type: flexsearch
+  editURL:
+    enable: true
+    base: "https://github.com/nikpsov/netlab/edit/main/content"
+  repo:
+    url: "https://github.com/nikpsov/netlab"
