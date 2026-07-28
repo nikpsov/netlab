@@ -22,9 +22,9 @@ Welcome to **NetLab** — база знаний, руководства и ст�
 ## 🛠 Популярные разделы
 
 {{< cards >}}
-  {{< card link="/guides/network-basics" title="🌐 Компьютерные сети" icon="globe" subtitle="Основы сетевой адресации, TCP/IP и подсетей." >}}
-  {{< card link="/guides/obsidian-guide" title="📝 Заметки в Obsidian" icon="pencil" subtitle="Инструкции по удобному составлению статей." >}}
-  {{< card link="/articles/docker-setup" title="🐳 Развертывание в Docker" icon="box" subtitle="Контейнеризация сервисов и лучшие практики." >}}
+  {{< card link="/guides/network-basics" title="🌐 Компьютерные сети" subtitle="Основы сетевой адресации, TCP/IP и подсетей." >}}
+  {{< card link="/guides/obsidian-guide" title="📝 Заметки в Obsidian" subtitle="Инструкции по удобному составлению статей." >}}
+  {{< card link="/articles/docker-setup" title="🐳 Развертывание в Docker" subtitle="Контейнеризация сервисов и лучшие практики." >}}
 {{< /cards >}}
 
 ---
