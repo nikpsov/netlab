@@ -3,8 +3,6 @@ title: "04. Чистый DNS, DoH/DoT и hosts"
 weight: 4
 ---
 
-# Чистый DNS, DoH/DoT и hosts: Фундамент работы Zapret
-
 ## 📌 Источник материала
 Материал подготовлен на основе [AdGuard-Home Wiki (DNS и hosts для nfqws и zapret)](https://github.com/Internet-Helper/AdGuard-Home/wiki/DNS-%D0%B8-hosts-%D0%B4%D0%BB%D1%8F-nfqws%E2%80%90keenetic,-youtubeUnblock,-zapret-%D0%B8-%D1%82.%D0%BF.#%D0%BE%D1%87%D0%B5%D0%BD%D1%8C-%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5).
 

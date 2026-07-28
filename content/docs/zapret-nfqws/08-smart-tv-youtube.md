@@ -3,8 +3,6 @@ title: "08. Фикс YouTube на Smart TV (TLS 1.2 vs 1.3)"
 weight: 8
 ---
 
-# Фикс YouTube на Smart TV: Зачем нужен TLS 1.2? (Samsung Tizen, LG WebOS, VIDAA)
-
 ## 📌 Источник материала
 Подготовлено на основе базы знаний [rcd27/zapret2-mcp: Smart TV и YouTube диагностика](https://github.com/rcd27/zapret2-mcp/blob/main/knowledge/troubleshooting/smart-tv-youtube.md).
 

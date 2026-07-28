@@ -3,8 +3,6 @@ title: "05. Принцип работы атак десинхронизации"
 weight: 5
 ---
 
-# Принцип работы атак десинхронизации (Fake, Split, Disorder, TTL)
-
 ## 📌 Источник материала
 Подготовлено на основе разделов `manual.md` проекта [bol-van/zapret2](https://github.com/bol-van/zapret2/blob/master/docs/manual.md).
 

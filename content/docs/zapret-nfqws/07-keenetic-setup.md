@@ -3,8 +3,6 @@ title: "07. Настройка nfqws2 на роутерах Keenetic"
 weight: 7
 ---
 
-# Настройка nfqws2 на роутерах Keenetic (Entware + Netfilter)
-
 ## 📌 Источник материала
 Материал основан на официальном репозитории [nfqws2-keenetic](https://github.com/nfqws/nfqws2-keenetic).
 
